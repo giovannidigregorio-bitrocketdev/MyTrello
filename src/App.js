@@ -1,9 +1,13 @@
 import "./App.css";
-import { Header } from "./components/Header/InputTask";
-import { Logo } from "./components/Header/Logo";
+import {GeneralHeader} from "../src/components/GeneralHeader/GeneralHeader";
+/* import { Header } from "./components/Header/InputTask"; */
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <GeneralHeader />
+    </div>
+  );
 }
 
 export default App;
