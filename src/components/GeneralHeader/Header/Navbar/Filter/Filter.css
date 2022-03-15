@@ -1,0 +1,10 @@
+.Navbar-li {
+  margin-left: 20px;
+  border-left: 2px solid rgb(255, 190, 13);
+  background: rgba(0, 0, 0, 0.9);
+}
+.filter {
+  border: 2px solid rgb(255, 190, 13);
+  color: rgb(255, 255, 255);
+  background-color: rgba(54, 54, 54, 0.9);
+}
