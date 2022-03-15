@@ -4,6 +4,7 @@ import { InputTask } from "./InputTask/InputTask";
 import "./Navbar.css";
 import { Priority } from "./Priority/Priority";
 import { Filter } from "./Filter/Filter";
+import { TaskButton } from "./CreateTaskButton/TaskButton";
 
 export const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ export const Navbar = () => {
         <AssignTo />
         <Priority />
         <Filter />
+        <TaskButton />
       </ul>
     </div>
   );

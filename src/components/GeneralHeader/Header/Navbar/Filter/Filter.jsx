@@ -4,7 +4,7 @@ import "./Filter.css";
 export const Filter = () => {
   return (
     <li class="Navbar-li">
-      <label for="filter">| Filtro task:</label>
+      <label for="filter">| Filtro task :</label>
 
       <select name="filter" class="filter">
         <option value="Completed">Completate</option>

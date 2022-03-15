@@ -4,7 +4,7 @@ import "./AssignTo.css";
 export const AssignTo = () => {
   return (
     <li class="Navbar-li">
-      <label for="assegnazione">| Assegna all'utente:</label>
+      <label for="assegnazione">| Assegna all'utente :</label>
 
       <select name="assegnazione" class="assegnazione">
         <option value="Gabriele">Gabriele Culotta</option>
