@@ -1,11 +1,12 @@
 import "./App.css";
-import {GeneralHeader} from "../src/components/GeneralHeader/GeneralHeader";
-/* import { Header } from "./components/Header/InputTask"; */
+import { GeneralHeader } from "../src/components/GeneralHeader/GeneralHeader";
+import { TaskList } from "./components/TaskList/TaskList";
 
 function App() {
   return (
     <div className="App">
       <GeneralHeader />
+      <TaskList />
     </div>
   );
 }

@@ -8,4 +8,5 @@ body {
   max-height: 850px;
   margin: auto;
   background-image: url(components/assets/inline_image_preview.avif);
+  backdrop-filter: blur(2px);
 }

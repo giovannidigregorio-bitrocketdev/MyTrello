@@ -1,0 +1,13 @@
+.container {
+  margin: 0;
+  position: relative;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 25px;
+  max-width: 1200px;
+  min-height: 600px;
+  max-height: 600px;
+  background: rgba(58, 58, 58, 0.781);
+  border: 2px solid rgb(255, 190, 13);
+}
